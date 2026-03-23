@@ -1,7 +1,7 @@
 const I18n = {
-  currentLang: 'zh-CN',
+  currentLang:'tw-CN',
   translations: {},
-  defaultLang:'zh-CN',
+  defaultLang:'tw-CN',
   langlist:[
   		{name:'简体中文',value:'zh-CN'},
 		{name:'繁体中文',value:'tw-CN'},
