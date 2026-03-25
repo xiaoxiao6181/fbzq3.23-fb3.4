@@ -153,7 +153,7 @@
 					}
 					
                     $(function() {
-						const savedLang = localStorage.getItem('preferredLanguage') || 'zh-CN';
+						const savedLang = localStorage.getItem('preferredLanguage') || I18n.defaultLang;
 						I18n.init(savedLang).then(() => {
 						    console.log('语言初始化完成:', I18n.currentLang);
 						    loadBankCards();
