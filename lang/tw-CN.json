@@ -26,7 +26,7 @@
   },
   "home": {
     "homeTitle": "行情",
-    "recharge": "充值",
+    "recharge": "儲值",
     "customerService": "客服",
     "my": "我的",
     "productName": "商品名稱",
@@ -93,11 +93,11 @@
   },
   "mine": {
     "title": "我的",
-    "recharge": "充值",
+    "recharge": "儲值",
     "withdraw": "提現",
     "customerService": "客服",
     "withdrawRecord": "提現記錄",
-    "rechargeRecord": "充值記錄",
+    "rechargeRecord": "儲值記錄",
     "tradeOrders": "交易訂單",
     "paymentMethods": "支付方式",
     "promotionPoster": "推廣分享海報",
@@ -174,7 +174,7 @@
     "promotionRecords": "推廣記錄",
     "noMoreRecords": "暫無更多記錄",
     "registerDate": "註冊日期",
-    "rechargeAmount": "充值金額",
+    "rechargeAmount": "儲值金額",
     "withdrawAmount": "提現金額"
   },
   "set_account": {
@@ -218,15 +218,15 @@
     "unread": "未讀"
   },
   "rechargeRecord": {
-    "pageTitle": "充值記錄",
-    "title": "充值記錄",
+    "pageTitle": "儲值記錄",
+    "title": "儲值記錄",
     "time": "時間：",
     "amount": "金額：",
     "type": "類型：",
     "status": "狀態：",
     "reason": "原因：",
     "loading": "加載中...",
-    "noRecords": "暫無充值記錄",
+    "noRecords": "暫無儲值記錄",
     "loadFailed": "加載失敗，請稍後重試",
     "statusPending": "處理中",
     "statusSuccess": "成功",
@@ -335,29 +335,29 @@
   "wallet": {
     "walletTitle": "我的錢包",
     "totalBalance": "總餘額",
-    "recharge": "充值",
+    "recharge": "儲值",
     "withdraw": "提現",
     "exchange": "兌換",
     "developing": "開發中",
     "cashWallet": "現金錢包"
   },
   "recharge": {
-    "title": "充值",
-    "tip": "溫馨提示：確認轉賬成功後再進行充值金額提交",
+    "title": "儲值",
+    "tip": "溫馨提示：確認轉賬成功後再進行儲值金額提交",
     "paymentMethod": "支付方式",
     "record": "記錄",
     "name": "姓名",
     "cardNumber": "卡號",
     "walletAddress": "錢包地址",
     "exchangeRate": "換算比例",
-    "rechargeAmount": "充值金額",
-    "rechargeAmountPlaceholder": "請輸入充值金額",
+    "rechargeAmount": "儲值金額",
+    "rechargeAmountPlaceholder": "請輸入儲值金額",
     "actualAmount": "實際到賬",
-    "rechargeButton": "充值",
+    "rechargeButton": "儲值",
     "validation": {
-      "amountError": "充值金額有誤",
+      "amountError": "儲值金額有誤",
       "selectPaymentMethod": "請選擇支付方式",
-      "enterAmount": "請輸入充值金額"
+      "enterAmount": "請輸入儲值金額"
     }
   },
   "yeb": {
@@ -407,7 +407,7 @@
     "buyDown": "買跌",
     "orderConfirm": "訂單確認",
     "expiryTime": "到期時間",
-    "insufficientBalance": "投資金額餘額不足，請充值！",
+    "insufficientBalance": "投資金額餘額不足，請儲值！",
     "maxSingleAmount": "單筆投資金額不超過999999999",
     "minSingleAmount": "單筆投資金額不少於100",
     "allFunds": "全部資金",
