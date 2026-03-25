@@ -750,7 +750,7 @@
 		
         console.log(config)
         // 初始化语言
-        let currentLang = localStorage.getItem('preferredLanguage') || 'zh-CN';
+        const savedLang = localStorage.getItem('preferredLanguage') || I18n.defaultLang;
         I18n.init(currentLang).then(() => {
             console.log('交易页面语言初始化完成:', I18n.currentLang);
             // updateUIText();
