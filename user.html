@@ -218,7 +218,6 @@
                             console.log('开始执行...');
                             let userInfo = await getUserInfo();
 							$(".username").text(`${userInfo.phone}[${userInfo.name}]`);
-                            $(".username").text(userInfo.phone);
                             $(".userlevel").text(userInfo.level_name);
                             
                             AjaxUtil.get('/index/index/getConfigInfo').then(res => {
