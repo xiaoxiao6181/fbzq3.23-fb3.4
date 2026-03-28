@@ -340,7 +340,7 @@
                         try {
                             result = JSON.parse(result);
                             if (result.code == 1) {
-                                msg(I18n.t('common.prompt'), 'success', 2, "./user.html"); // 成功提示
+                                msg(I18n.t('common.prompt'), I18n.t('reg.registerSuccess'), 2, "./user.html"); // 成功提示
                             } else {
                                 msg(I18n.t('common.prompt'), result.info, 1); // 后端返回的错误信息
                             }
